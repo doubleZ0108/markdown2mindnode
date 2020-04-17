@@ -1,7 +1,17 @@
 # markdown2mindnode
 convert markdown list to mindnode format
 
-[toc]
+Table of Contents
+=================
+
+   * [markdown2mindnode](#markdown2mindnode)
+      * [痛点](#痛点)
+      * [环境配置](#环境配置)
+      * [如何使用](#如何使用)
+      * [Workflow截屏](#workflow截屏)
+      * [常见问题](#常见问题)
+      * [TODO](#todo)
+      * [关于作者](#关于作者)
 
 ------
 
