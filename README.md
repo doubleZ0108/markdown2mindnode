@@ -78,15 +78,15 @@ convert markdown list to mindnode format
 
 1. 编写`.md`文件
 
-   <img src="https://upload-images.jianshu.io/upload_images/12014150-02b69b35b0a74761.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="markdown.png" style="zoom:50%;" />
+   <img src="https://upload-images.jianshu.io/upload_images/12014150-02b69b35b0a74761.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="markdown.png" width="50%;" />
 
 2. 执行脚本
 
-   ![workflow.gif](https://upload-images.jianshu.io/upload_images/12014150-0148f0a88e1e49e6.gif?imageMogr2/auto-orient/strip)
+   ![workflow_1.gif](https://upload-images.jianshu.io/upload_images/12014150-66e9b347f5bbba27.gif?imageMogr2/auto-orient/strip)
 
 3. 粘贴到`MindNode`中
 
-   <img src="https://upload-images.jianshu.io/upload_images/12014150-8e584e4fbba03593.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="mindnode.png" style="zoom:50%;" />
+   <img src="https://upload-images.jianshu.io/upload_images/12014150-8e584e4fbba03593.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="mindnode.png" width="50%;" />
 
 <br/>
 
@@ -107,9 +107,8 @@ convert markdown list to mindnode format
 
 ## TODO
 
-- [ ] 
-- [x] 
-- [ ] 
+- [x] workflow框架搭建
+- [x] markdown无序list
 - [ ] 支持更复杂的markdown语法
 - [ ] 支持图片的添加
 
