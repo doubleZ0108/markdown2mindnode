@@ -77,10 +77,16 @@ convert markdown list to mindnode format
 ## Workflow截屏
 
 1. 编写`.md`文件
+
+   <img src="https://upload-images.jianshu.io/upload_images/12014150-02b69b35b0a74761.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="markdown.png" style="zoom:50%;" />
+
 2. 执行脚本
+
+   ![workflow.gif](https://upload-images.jianshu.io/upload_images/12014150-0148f0a88e1e49e6.gif?imageMogr2/auto-orient/strip)
+
 3. 粘贴到`MindNode`中
 
-![workflow](http://q8xb5z7pr.bkt.clouddn.com/workflow.gif)
+   <img src="https://upload-images.jianshu.io/upload_images/12014150-8e584e4fbba03593.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="mindnode.png" style="zoom:50%;" />
 
 <br/>
 
