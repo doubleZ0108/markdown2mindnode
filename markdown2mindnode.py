@@ -40,13 +40,22 @@ def save_as_refactored_file(file):
 if __name__ == '__main__':
     file = '#'
     try:
-        file = sys.argv[1]
+        if len(sys.argv) > 3:   # 文件名中有空格
+            if sys.argv[-1] in ('file', 'clipboard'):
+                file = ' '.join(sys.argv[1:-1])
+            else:
+                file = ' '.join(sys.argv[1:])
+        else:
+            file = sys.argv[1]
     except Exception:
         print("You must provide a .md file!")
     finally:
         if file != '#':
             try:
-                mode = sys.argv[2]
+                mode = sys.argv[-1]
+                print(mode)
+                if mode.find('.md') != -1:
+                    raise Exception
             except Exception:
                 mode = 'clipboard'
                 print("By default, the transformed content is copied to clipboard.")
@@ -56,5 +65,5 @@ if __name__ == '__main__':
                 elif mode == 'file':
                     save_as_refactored_file(file)
                 else:
-                    print("The second parameter option is[clipboard | file], copy to clipboard by default.")
+                    print("The second parameter option is [clipboard | file], copy to clipboard by default.")
                     save_to_clipboard(file)
